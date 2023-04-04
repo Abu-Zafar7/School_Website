@@ -1,0 +1,327 @@
+.main-inner{
+    width:1400px ;
+    height: 650px;
+
+}
+
+.navbar-nav a {
+    transition: all 0.3s ease-in-out !important;
+  }
+  
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.para{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+    
+}
+
+.sub-para{
+    font-family: 'Playfair Display',serif;
+    display: block;
+}
+
+.footer-main{
+    text-align: center;
+}
+
+.line{
+    border: 1px solid black;
+    
+}
+
+.heading{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Playfair Display',serif;
+    background-color: rgb(198, 163, 232);
+    margin-top: none;
+    padding: 100px 100px;
+    text-align: center;
+    font-weight: 200 !important;
+}
+
+.objective{
+    font-family: 'Lora',serif;
+    font-weight: 600;
+    margin: 60px 60px;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-top: 10px;
+    width: auto;
+
+}
+
+.objective h2{
+    font-size: 45px;
+    font-weight: 100;
+    
+}
+
+
+
+.objective-body{
+    font-family: 'Lora',serif;
+    margin: 60px 60px;
+    padding-left: 40px;
+}
+
+
+.group{
+    display: flex;
+    
+}
+
+.group-2{
+    display: flex;
+}
+
+.vision{
+    font-family: 'Lora',serif;
+    font-weight: 600;
+    margin: 60px 60px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: auto;
+
+}
+
+.vision-body{
+    font-family: 'Lora',serif;
+    margin: 60px 60px;
+    padding-left: 70px;
+    padding-top: 40px;
+    
+}
+
+.vision h2{
+    font-size: 45px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.director-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+  
+.director-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+    
+    
+  }
+
+  .dir h2{
+    text-align: center;
+    font-family: 'Lora',serif;
+    font-size: 50px;
+  }
+
+  .inner{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .heading-2{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Playfair Display',serif;
+    background-color: rgb(223, 205, 211);
+    margin-top: none;
+    padding: 100px 100px;
+    text-align: center;
+    font-weight: 200 !important;
+  }
+
+  .pic{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .school{
+    width: 700px;
+    height: 400px;
+  }
+
+  .acad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .acad h1{
+    font-family: 'Lora',serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+  }
+
+ .acad p{
+    font-family: 'Lora',serif;
+    
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+    font-size: 18px;
+    width: 600px;
+}
+
+.acad-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.acad-2 h1{
+    font-family: 'Lora',serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.acad-2 p{
+    font-family: 'Lora',serif;
+    
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+    font-size: 18px;
+    width: 950px;
+
+}
+
+.footer{
+    text-align: center;
+    font-size: small;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    font-family: 'Alakatra',serif;
+}
+
+.heading-3{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Playfair Display',serif;
+    background-color: rgb(236, 225, 218);
+    margin-top: none;
+    padding: 100px 100px;
+    text-align: center;
+    font-weight: 200 !important;
+}
+
+.info{
+    flex: 1;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 50px 50px;
+}
+.info h2{
+    font-family: 'Lora',serif;
+    color: rgb(56, 40, 71);
+    
+}
+
+.info p{
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.mess {
+    margin-top: 15px;
+  }
+  
+.form-1{
+    
+    
+    flex: 1;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    /* margin-right: 800px;
+    margin-bottom: 1000px;
+    padding-right: 500px;
+    padding-top: 100px;
+     */
+    
+}
+
+.main-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-1 form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-1 input[type="text"],
+  .form-1 input[type="email"],
+  .form-1 input[type="message"],
+  .form-1 textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  }
+  
+  .form-1 input[type="text"],
+  .form-1 input[type="email"],
+  .form-1 input[type="tel"] {
+    height: 30px;
+  }
+  
+  .form-1 textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .form-1 input[type="submit"] {
+    background-color: #c72525;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  }
+  
+  .form-1 input[type="submit"]:hover {
+    background-color: #e91a1a;
+  }
+  
+  .form-1 input::-webkit-input-placeholder,
+  .form-1 textarea::-webkit-input-placeholder {
+    color: #999;
+    font-size: 14px;
+  }
+  
+  

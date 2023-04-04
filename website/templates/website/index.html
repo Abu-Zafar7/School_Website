@@ -1,0 +1,81 @@
+{% extends 'website/base.html' %}
+
+{% load static %}
+
+<body>
+ 
+  {% block content %}
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'images/school_1.jpg'%}" class="d-block w-100 main-inner" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Some Label</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia itaque suscipit tempora iusto est, illo
+            nisi libero sapiente in laudantium?</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="{% static 'images/school_2.jpg' %}" class="d-block w-100 main-inner" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Some label</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, esse.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/school_3.jpg' %}" class="d-block w-100 main-inner" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Some Label</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero optio dignissimos deserunt eius asperiores
+            ratione!
+          <p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="para">
+    <p>Welcome to XYZ Academy</p>
+  </div>
+
+  <div class="sub-para container">
+    <div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad laboriosam est ducimus in ab aperiam natus
+        consectetur aliquid culpa animi, facilis, fuga aliquam cum deserunt molestiae eligendi doloremque debitis,
+        quidem atque nisi asperiores suscipit vitae corrupti? Est quas quod blanditiis?</p><br>
+      <p class="text-wrap">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque minus pariatur quas dolorum
+        vero delectus nesciunt a numquam necessitatibus, corrupti eum est? Deleniti aliquam voluptates velit quae quasi
+        officia atque totam quos dicta, repudiandae voluptas nam ducimus cum neque eaque vitae. Amet esse natus nostrum.
+      </p>
+    </div>
+  </div>
+  
+  <br>
+	<footer class="footer mt-auto py-3 bg-light">
+    <div class="container footer-main">
+      <span class="text-muted">My Website &copy; 2023</span>
+    </div>
+</footer>
+{% endblock content %}
+
+
+</body>
+
